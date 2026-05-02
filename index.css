@@ -964,7 +964,13 @@ body {
   color: #C8A35F;
   font-weight: 600;
 }
-
+.fp-card-link{
+  font-family: jakarta;
+  font-size: 12px;
+  color: #C8A35F;
+  font-weight: 600;
+  text-decoration: none;
+}
 .fp-rating{
   display: flex;
   justify-content: center;
