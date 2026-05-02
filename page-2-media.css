@@ -1,0 +1,55 @@
+@media (max-width: 800px) {
+
+  .nt-main-container {
+    display: none;
+  }
+
+  .nb-btn-container {
+    display: none;
+  }
+
+  .nb-inner-container {
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .nav-mobile-menu {
+    display: block;
+  }
+
+/* MADE WITH THIS */
+
+  .mt-card-container {
+    flex-wrap: wrap;
+    margin: 0px 10px;
+  }
+/* GOES WELL WITH */
+  .gw-card-container{
+    flex-wrap: wrap;
+  }
+  .gw-card{
+    width: 100%;
+  }
+  /* JOURNEY SECTION */
+  .js-flow-container{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .js-flow-container img{
+    padding: 20px 0px;
+    transform: rotate(90deg);
+  }
+  .js-image img{
+  width: 100%;
+}
+  /* FOOTER  */
+
+  .foot-top-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .foot-middle-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
