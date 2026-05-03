@@ -108,8 +108,266 @@ body {
 .nav-mobile-menu img{
   height: 20px;
 }
+/* MAIN PRODUCT SECTION  */
+.mps-main-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px  48px;
+}
+.mps-upper-address{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+  color: #242424;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+}
+.mps-inner-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1200px;
+}
+
+.mps-right-content{
+  display: flex;
+  flex-direction: column;
+  
+}
+.mps-right-content p:first-child{
+  color: #C8A35F;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  font-family: jakarta;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+.mps-right-content h1{
+  color: #2C1810;
+  font-size: 40px;
+  letter-spacing: 0px;
+  font-family: playfair;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.mps-tag-1{
+  color: #1A1207;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+.mps-right-content p:nth-child(4){
+  color: #6B5744;
+  font-size: 17px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.mps-tag-2{
+  color: #ffffff;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  font-family: jakarta;
+  font-weight: 500;
+  margin-bottom: 16px ;
+}
+.mps-rating{
+  color: #6B5744;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+  margin-bottom: 16px ;
+}
+.mps-rating p:first-child{
+  color: #080808;
+  font-size: 17px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 700;
+}
+.mps-mrp{
+  color: #1A1207;
+  font-size: 48px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.mps-mrp p:nth-child(2){
+  color: #6B5744;
+  font-size: 15px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+}
+.mps-punch-line{
+  border-left: #000000e5 solid 3px;
+  color: #2C1810;
+  font-size: 18px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 400;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+.mps-right-content :nth-child(9){
+  color: #2C1810;
+  font-size: 17px;
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.mps-tag-3 {
+  display: flex;
+  gap: 16px;
+  color: #2C1810; 
+  font-size: 13px ; 
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.mps-tag-3 button{
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: #00000023 solid 1px;
+  background-color: #F5EDD8;
+}
+.mps-tag-4{
+  display: flex;
+  gap: 16px;
+  color: #6b574438; 
+  font-size: 13px ; 
+  letter-spacing: 0px;
+  font-family: jakarta;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.mps-tag-4 button{
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: #00000013 solid 1px;
+  background-color: #FAF5E8;
+}
+
+.mps-showcase{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.child-1{
+  height: 300px;
+  width: 300px;
+  background-color: #000000;
+}
+.mps-showcase-container{
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: end;
+  height: 800px;
+}
+.child-2, .child-3, .child-4, .child-5, .child-6, .child-7, .child-8{
+  
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
+}
+.mps-showcase :has(.child-2:hover) .child-1{
+  background-image: url(Images/choker-sahit-atta-blinkit-1.webp);
+}
 
 
+.wtb-main-container {
+  padding: 12px 0px;
+}
+
+.wtb-inner-container {
+  margin: 0px 350px;
+  padding: 16px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+}
+
+.wtb-badge-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.wtb-badges {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.wtb-big-t {
+  font-family: jakarta;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  font-weight: 500;
+  color: #3a1304cb;
+}
+
+.wtb-small-t {
+  font-family: jakarta;
+  font-size: 12px;
+  letter-spacing: 0px;
+  font-weight: 600;
+  color: #35110383;
+}
+
+.wtb-badge-1 {
+  padding: 8px 16px;
+  background-color: #F8C200;
+  color: black;
+  font-family: jakarta;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+.wtb-badge-2,
+.wtb-badge-3,
+.wtb-badge-4 {
+  padding: 12px 20px;
+  background-color: #8B5CF6;
+  color: rgb(255, 255, 255);
+  font-family: jakarta;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+}
+
+.wtb-badge-3 {
+  background-color: #FF5200;
+}
+
+.wtb-badge-4 {
+  background-color: #95CA42;
+}
 /* MADE WITH THIS  */
 
 .mt-main-container{
